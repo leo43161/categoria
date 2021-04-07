@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Lato";
+    src: url(../font/Lato/Lato-Regular.ttf);
+}
+
+body {
+    font-family: "Lato";
+    font-size: 13pt;
+}
+
+.share-container{
+    padding-bottom: 6px;
+}
+
+/*  */
+
+.bg-primary {
+    background-color: #149acc !important;
+}
+.text-primary {
+    color: #149acc !important;
+}
+
+.bg-secondary {
+    background-color: #7b6f6f;
+}
+
+.navbar-nav a {
+    color: #ffffff !important;
+}
+
+a {
+    color: #0b5479;
+}
+
+a:hover {
+    color: #149acc;
+    cursor: pointer;
+}
+
+button {
+    color: white !important;
+}
+
+.nav-item .dropdown-menu *:focus {
+    background-color: #149acc !important;
+}
+
+.nav-item button:hover {
+    background-color: #149acc;
+    cursor: pointer;
+}
+
+.dropdown-menu hr {
+    border: 0 none #ffffff;
+    border-top: 1px solid #ffffff;
+    height: 1px;
+    opacity: 1;
+    display: block;
+    clear: both;
+}
+
+/* .dropdown-menu li a{
+    border-bottom: 1px solid white;
+} */
+
+.dropdown-menu a:hover {
+    background-color: #149acc !important;
+}
+
+
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Nav */
+
+.navbar-nav a:hover {
+    background-color: #0b5479;
+}
+
+.dropdown-menu {
+    background-color: #0b5479;
+    padding: 0px 10px;
+
+}
+
+.dropdown-menu:last-child {
+    border-bottom: 0px solid white;
+}
